@@ -163,7 +163,8 @@ Output:
 - **Redis VL Innovator** → anomaly + vector search  
 - **Best use of Apify** → vendor enrichment  
 - **Best use of AWS** → ERP + data hosting  
-- **Future integrations (Gladia, HoneyHive, Stytch)** can unlock additional categories  
+- **Future integrations (Gladia, HoneyHive, Stytch)** can unlock additional categories
+- **Video link** https://drive.google.com/file/d/1VWXxDVVkfEmxuwlpyQFZvLHOmEKEP0pL/view?usp=drive_link
 
 ---
 
