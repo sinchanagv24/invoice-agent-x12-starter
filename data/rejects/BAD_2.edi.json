@@ -1,0 +1,36 @@
+{
+  "meta": {},
+  "invoice": {
+    "lines": [
+      {
+        "line_no": 1,
+        "qty": 2.0,
+        "uom": "EA",
+        "unit_price": 50.0,
+        "item": "ITEM-2",
+        "ext_price": 100.0,
+        "description": "Item ITEM-2",
+        "gl_account": "6100 - Office Supplies"
+      }
+    ],
+    "charges": [],
+    "tax": [],
+    "totals": {
+      "invoice_total": 100.0
+    },
+    "invoice_number": "INV2001",
+    "po_number": "PO9002",
+    "enrichment": {
+      "website": "https://acme.example",
+      "category": "office",
+      "gl_suggestion": "6100 - Office Supplies"
+    }
+  },
+  "explanation": "- **BIG01 missing**: Invoice date not found in BIG segment.",
+  "enrichment": {
+    "website": "https://acme.example",
+    "category": "office",
+    "gl_suggestion": "6100 - Office Supplies"
+  },
+  "anomaly": 0.32
+}

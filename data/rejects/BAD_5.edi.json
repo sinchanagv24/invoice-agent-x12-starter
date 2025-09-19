@@ -1,0 +1,38 @@
+{
+  "meta": {},
+  "invoice": {
+    "lines": [
+      {
+        "line_no": 1,
+        "qty": 1.0,
+        "uom": "EA",
+        "unit_price": 100.0,
+        "item": "ITEM-5",
+        "ext_price": 100.0,
+        "description": "Item ITEM-5",
+        "gl_account": "6100 - Office Supplies"
+      }
+    ],
+    "charges": [],
+    "tax": [],
+    "totals": {
+      "invoice_total": 100.0,
+      "line_count": 2
+    },
+    "invoice_date": "2025-09-19",
+    "invoice_number": "INV2004",
+    "po_number": "PO9005",
+    "enrichment": {
+      "website": "https://acme.example",
+      "category": "office",
+      "gl_suggestion": "6100 - Office Supplies"
+    }
+  },
+  "explanation": "- **CTT mismatch**: CTT01 should equal count of IT1 lines.",
+  "enrichment": {
+    "website": "https://acme.example",
+    "category": "office",
+    "gl_suggestion": "6100 - Office Supplies"
+  },
+  "anomaly": 0.35
+}

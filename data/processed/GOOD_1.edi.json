@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "interchange_control": "000000001",
+    "sender_id": "SENDERID",
+    "receiver_id": "RECEIVERID",
+    "group_control": "1",
+    "transaction_control": "0001"
+  },
+  "invoice": {
+    "lines": [
+      {
+        "line_no": 1,
+        "qty": 5.0,
+        "uom": "EA",
+        "unit_price": 20.0,
+        "item": "ITEM-1",
+        "ext_price": 100.0,
+        "description": "Item ITEM-1",
+        "gl_account": "6200 - COGS"
+      }
+    ],
+    "charges": [],
+    "tax": [
+      {
+        "type": "GS",
+        "amount": 5.0
+      }
+    ],
+    "totals": {
+      "invoice_total": 105.0,
+      "line_count": 1
+    },
+    "invoice_date": "2025-09-19",
+    "invoice_number": "INV1001",
+    "po_number": "PO5001",
+    "parties": {
+      "bill_to_id": "123",
+      "remit_to_id": "789"
+    },
+    "enrichment": {
+      "website": null,
+      "category": null,
+      "gl_suggestion": "6200 - COGS"
+    }
+  },
+  "enrichment": {
+    "website": null,
+    "category": null,
+    "gl_suggestion": "6200 - COGS"
+  },
+  "anomaly": -0.58
+}

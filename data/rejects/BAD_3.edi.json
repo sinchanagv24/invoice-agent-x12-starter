@@ -1,0 +1,26 @@
+{
+  "meta": {},
+  "invoice": {
+    "lines": [],
+    "charges": [],
+    "tax": [],
+    "totals": {
+      "invoice_total": 0.0
+    },
+    "invoice_date": "2025-09-19",
+    "invoice_number": "INV2002",
+    "po_number": "PO9003",
+    "enrichment": {
+      "website": "https://acme.example",
+      "category": "office",
+      "gl_suggestion": "6100 - Office Supplies"
+    }
+  },
+  "explanation": "- **IT1 missing**: At least one line item is required.",
+  "enrichment": {
+    "website": "https://acme.example",
+    "category": "office",
+    "gl_suggestion": "6100 - Office Supplies"
+  },
+  "anomaly": -2.15
+}

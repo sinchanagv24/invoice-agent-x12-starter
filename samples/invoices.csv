@@ -1,0 +1,4 @@
+invoice_number,vendor_id,amount,description
+INV-001,Staples,128.44,Office order
+INV-002,ACME office supplies,342.10,Chairs and paper
+INV-003,UnknownCo,59.99,Misc

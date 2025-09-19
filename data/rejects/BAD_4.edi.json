@@ -1,0 +1,37 @@
+{
+  "meta": {},
+  "invoice": {
+    "lines": [
+      {
+        "line_no": 1,
+        "qty": 3.0,
+        "uom": "EA",
+        "unit_price": 15.0,
+        "item": "ITEM-3",
+        "ext_price": 45.0,
+        "description": "Item ITEM-3",
+        "gl_account": "6100 - Office Supplies"
+      }
+    ],
+    "charges": [],
+    "tax": [],
+    "totals": {
+      "invoice_total": 10.0
+    },
+    "invoice_date": "2025-09-19",
+    "invoice_number": "INV2003",
+    "po_number": "PO9004",
+    "enrichment": {
+      "website": "https://acme.example",
+      "category": "office",
+      "gl_suggestion": "6100 - Office Supplies"
+    }
+  },
+  "explanation": "- **TDS totals mismatch**: In X12 810, `TDS` is the invoice total (often N2 implied cents). Sum of line extended amounts plus taxes/charges must equal TDS. Totals mismatch: lines+tax+charges=45.00 vs TDS=10.00.",
+  "enrichment": {
+    "website": "https://acme.example",
+    "category": "office",
+    "gl_suggestion": "6100 - Office Supplies"
+  },
+  "anomaly": -1.8
+}

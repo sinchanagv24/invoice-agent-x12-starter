@@ -1,0 +1,26 @@
+[
+  {
+    "invoice_number": "INV-001",
+    "vendor_id": "Staples",
+    "amount": "128.44",
+    "website": null,
+    "category": null,
+    "gl_suggestion": "6200 - COGS"
+  },
+  {
+    "invoice_number": "INV-002",
+    "vendor_id": "ACME office supplies",
+    "amount": "342.10",
+    "website": "https://acme.example",
+    "category": "office",
+    "gl_suggestion": "6100 - Office Supplies"
+  },
+  {
+    "invoice_number": "INV-003",
+    "vendor_id": "UnknownCo",
+    "amount": "59.99",
+    "website": null,
+    "category": null,
+    "gl_suggestion": "6200 - COGS"
+  }
+]

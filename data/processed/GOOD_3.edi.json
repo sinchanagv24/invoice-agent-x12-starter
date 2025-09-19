@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "interchange_control": "000000003",
+    "sender_id": "SENDERID",
+    "receiver_id": "RECEIVERID",
+    "group_control": "3",
+    "transaction_control": "0003"
+  },
+  "invoice": {
+    "lines": [
+      {
+        "line_no": 1,
+        "qty": 3.0,
+        "uom": "EA",
+        "unit_price": 15.0,
+        "item": "ITEM-3",
+        "ext_price": 45.0,
+        "description": "Item ITEM-3",
+        "gl_account": "6100 - Office Supplies"
+      },
+      {
+        "line_no": 2,
+        "qty": 4.0,
+        "uom": "EA",
+        "unit_price": 10.0,
+        "item": "ITEM-4",
+        "ext_price": 40.0,
+        "description": "Item ITEM-4",
+        "gl_account": "6100 - Office Supplies"
+      }
+    ],
+    "charges": [],
+    "tax": [
+      {
+        "type": "GS",
+        "amount": 0.0
+      }
+    ],
+    "totals": {
+      "invoice_total": 85.0,
+      "line_count": 2
+    },
+    "invoice_date": "2025-09-19",
+    "invoice_number": "INV1003",
+    "po_number": "PO5003",
+    "enrichment": {
+      "website": "https://acme.example",
+      "category": "office",
+      "gl_suggestion": "6100 - Office Supplies"
+    }
+  },
+  "enrichment": {
+    "website": "https://acme.example",
+    "category": "office",
+    "gl_suggestion": "6100 - Office Supplies"
+  },
+  "anomaly": -0.07
+}

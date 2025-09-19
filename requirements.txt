@@ -1,0 +1,29 @@
+# Core API + App
+fastapi==0.112.2
+uvicorn[standard]==0.30.6
+streamlit==1.38.0
+pydantic==2.9.2
+python-dotenv==1.0.1
+requests==2.32.3
+
+# Data & Validation
+pandas==2.2.2
+numpy==1.26.4
+packaging==24.1
+
+# Redis
+redis==5.0.7
+redisvl==0.2.3    # for Redis VL vector search
+
+# AI / LLM tooling
+llama-index==0.11.15
+
+# Integrations
+apify-client==1.2.1   # Apify API
+honeyhive>=0.2.30,<0.3.0 # HoneyHive logging (use modern version)
+stytch>=10.0.0,<11.0.0
+boto3==1.35.54        # AWS S3 uploads (optional)
+
+# Dev/Utils
+python-multipart==0.0.9   # if files in FastAPI
+mcp>=1.0.0
